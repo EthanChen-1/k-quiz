@@ -1,87 +1,28 @@
-# Welcome to React Router!
+# K-Quiz
 
-A modern, production-ready template for building full-stack React applications using React Router.
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
-
-## Features
-
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
-
-## Getting Started
-
-### Installation
-
-Install the dependencies:
-
-```bash
-npm install
-```
-
-### Development
-
-Start the development server with HMR:
-
-```bash
-npm run dev
-```
-
-Your application will be available at `http://localhost:5173`.
-
-## Building for Production
-
-Create a production build:
-
-```bash
-npm run build
-```
-
-## Deployment
-
-### Docker Deployment
-
-To build and run using Docker:
-
-```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
-```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
+> A web application built using React Router, Tailwind CSS, Express.js, Prisma, and PostgreSQL.
 
 ---
 
-Built with ❤️ using React Router.
+## Our Mission
+
+> To help people find new Kpop groups to listen to and learn about the discography of more groups.
+
+---
+
+## What We Aim To Provide
+
+> Users of K-Quiz will be able to find new Kpop artists using our Group Finder form. This form determines Kpop groups that a user might enjoy listening to based on:
+
+1. Genre, Theme, Topic, or Mood.
+2. Artists they already listen to
+3. A Randomly Chosen Artist
+4. Currently Popular Songs
+
+---
+
+## Architecture
+
+> Our frontend will be built using React Router which makes it easy to building multi-page applications with the ability to use SSR, RSC, and Server Actions to make it easy to separate client functions from server functions.
+
+> Our backend is going to use Express.js to validate and sanitize user submitted data, handle our business logic related to finding Kpop Artists, and store data in a PostgreSQL database with the help of Prisma's ORM features.

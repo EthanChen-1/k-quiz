@@ -14,13 +14,13 @@ function QuizForm({ actionData }: Route.ComponentProps) {
       <h2 className="text-3xl font-extralight text-center">
         Find a new group to listen to
       </h2>
-      <Form className="flex flex-col gap-4 max-w-5xl mx-auto" method="post">
-        <div className="flex gap-x-4 items-center">
-          <label className="text-2xl" htmlFor="genre">
+      <Form className="flex flex-col gap-4 max-w-xl w-full px-4" method="post">
+        <div className="grid grid-cols-4 gap-x-4 items-center col-span-2">
+          <label className="text-2xl col-span-2 sm:col-span-1" htmlFor="genre">
             Genre:
           </label>
           <select
-            className="w-full text-center p-4 bg-white text-black"
+            className="w-full text-center p-4 bg-white text-black col-span-2 sm:col-span-3"
             name="genre"
             id="genre"
           >
@@ -35,12 +35,12 @@ function QuizForm({ actionData }: Route.ComponentProps) {
             </option>
           </select>
         </div>
-        <div className="flex gap-x-4 items-center">
-          <label className="text-2xl" htmlFor="gender">
+        <div className="grid grid-cols-4 gap-x-4 items-center col-span-2">
+          <label className="text-2xl col-span-2 sm:col-span-1" htmlFor="gender">
             Gender:
           </label>
           <select
-            className="w-full text-center p-4 bg-white text-black"
+            className="w-full text-center p-4 bg-white text-black col-span-2 sm:col-span-3"
             name="gender"
             id="gender"
           >

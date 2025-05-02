@@ -2,10 +2,10 @@ import { Link, NavLink } from "react-router";
 
 function NavBar() {
   return (
-    <nav className="flex flex-row max-w-7xl justify-between mx-auto p-4 items-center">
+    <nav className="flex flex-col gap-4 sm:flex-row max-w-7xl justify-between mx-auto p-4 items-center">
       <Link to="/">
         <img
-          src="../../../public/k-quiz-logo-bright.svg"
+          src="../../../k-quiz-logo-bright.svg"
           alt="logo of K-Quiz"
           className=""
         />
