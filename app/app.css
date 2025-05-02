@@ -13,3 +13,7 @@ body {
     color-scheme: dark;
   }
 }
+
+a.active {
+  @apply border-b-2 border-white font-bold;
+}
