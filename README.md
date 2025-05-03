@@ -14,15 +14,16 @@
 
 > Users of K-Quiz will be able to find new Kpop artists using our Group Finder form. This form determines Kpop groups that a user might enjoy listening to based on:
 
-1. Genre, Theme, Topic, or Mood.
+1. A genre, theme, topic, or mood
 2. Artists they already listen to
-3. A Randomly Chosen Artist
-4. Currently Popular Songs
+3. An Kpop artist chosen at random
+4. Popular Kpop songs
+5. A playlist they listen to
 
 ---
 
 ## Architecture
 
-> Our frontend will be built using React Router which makes it easy to building multi-page applications with the ability to use SSR, RSC, and Server Actions to make it easy to separate client functions from server functions.
+> Our frontend tech stack consists of React w/ React Router to create beautiful Reactive component based UIs and create a multi-page application. We'll be taking advantage of SSR, RSC, and server actions to improve SEO and reduce page load times by having our heavy computations and functions run on the server. This reduces the amount of client-side javascript and creates a smoother user experience.
 
-> Our backend is going to use Express.js to validate and sanitize user submitted data, handle our business logic related to finding Kpop Artists, and store data in a PostgreSQL database with the help of Prisma's ORM features.
+> Our backend uses Express.js to create an server API where we process client requests, execute our application's business logic, and store/ fetch data from our Postgres database using Prisma's ORM features.

@@ -24,7 +24,7 @@ export default function Home() {
         <section className="flex flex-col justify-center items-center pt-12 gap-y-4  h-[500px] bg-linear-to-bl from-violet-500 to-fuchsia-500">
           <h2 className="text-3xl font-bold">Welcome to K-Quiz</h2>
           <p className="font-extralight text-center text-2xl">
-            There are a ton of talented KPOP groups in the world waiting to be
+            There are a ton of talented Kpop groups in the world waiting to be
             discovered
           </p>
           <Link
@@ -42,7 +42,7 @@ export default function Home() {
             <div className="rounded p-4 border-white border-2 flex flex-col gap-2">
               <h3 className="text-2xl font-bold">TWICE</h3>
               <p className="font-extralight">
-                Twice is one of the most popular KPOP groups in the world.
+                Twice is one of the most popular Kpop groups in the world.
               </p>
               <p className="text-xl ">Members</p>
               <ul className="list-disc list-inside">
@@ -60,7 +60,7 @@ export default function Home() {
             <div className="rounded p-4 border-white border-2 flex flex-col gap-2">
               <h3 className="text-2xl font-bold">BLACKPINK</h3>
               <p className="font-extralight">
-                Black Pink is one of the most popular KPOP groups in the world.
+                Black Pink is one of the most popular Kpop groups in the world.
               </p>
               <p className="text-xl ">Members</p>
               <ul className="list-disc list-inside">
@@ -73,7 +73,7 @@ export default function Home() {
             <div className="rounded p-4 border-white border-2 flex flex-col gap-2">
               <h3 className="text-2xl font-bold">BTS</h3>
               <p className="font-extralight">
-                BTS is one of the most popular KPOP groups in the world.
+                BTS is one of the most popular Kpop groups in the world.
               </p>
               <p className="text-xl ">Members</p>
               <ul className="list-disc list-inside">
