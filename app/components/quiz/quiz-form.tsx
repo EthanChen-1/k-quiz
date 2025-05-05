@@ -52,7 +52,7 @@ function QuizForm({ actionData }: Route.ComponentProps) {
               <option className="text-black" value="ballad">
                 Ballad
               </option>
-              <option className="text-black" value="rhythum-&-blues">
+              <option className="text-black" value="rhythm-&-blues">
                 R&B
               </option>
               <option className="text-black" value="rock">

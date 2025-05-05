@@ -18,7 +18,7 @@ function Artist({ artist }: Artist) {
           <li key={tag}>{tag}</li>
         ))}
       </ul>
-      <div>Most Recent Song: {song.name}</div>
+      <div>Most Popular Album: {song.name}</div>
     </div>
   );
 }
