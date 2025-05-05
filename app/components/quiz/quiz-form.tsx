@@ -1,6 +1,6 @@
-import { useEffect, useState } from "react";
 import type { Route } from "./+types/project";
 import { Form } from "react-router";
+import Artist from "../artist/artist";
 
 export async function action({ request }: Route.ActionArgs) {
   let formData = await request.formData();
@@ -89,7 +89,7 @@ function QuizForm({ actionData }: Route.ComponentProps) {
         </Form>
       </div>
       <div className="flex flex-col">
-        {actionData ? actionData.artist.name : null}
+        {actionData ? <Artist artist={actionData.artist} /> : null}
       </div>
     </>
   );
