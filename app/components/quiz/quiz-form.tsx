@@ -29,7 +29,7 @@ export async function action({ request }: Route.ActionArgs) {
 function QuizForm({ actionData }: Route.ComponentProps) {
   return (
     <>
-      <div className="flex flex-col justify-center items-center gap-4 bg-linear-to-tr from-sky-500 to-indigo-500 h-[500px] w-full pt-12 pb-16">
+      <section className="flex flex-col justify-center items-center gap-4 bg-linear-to-tr from-sky-500 to-indigo-500 h-[500px] w-full pt-12 pb-16">
         <h2 className="text-3xl font-extralight text-center">
           Find a new group to listen to
         </h2>
@@ -87,10 +87,10 @@ function QuizForm({ actionData }: Route.ComponentProps) {
             Submit
           </button>
         </Form>
-      </div>
-      <div className="flex flex-col">
+      </section>
+      <section className="flex flex-col">
         {actionData ? <Artist artist={actionData.artist} /> : null}
-      </div>
+      </section>
     </>
   );
 }
